@@ -1,0 +1,41 @@
+class CustomLists {
+  static List<String> hub = [
+    'Maradu Kochi',
+    'KINFRA Calicut',
+    'Dotspace TVM',
+    'Bengaluru',
+    'Chennai',
+    'Coimbatore',
+  ];
+
+  static List<String> week = [
+    'week 1',
+    'week 2',
+    'week 3',
+    'week 4',
+    'week 5',
+    'week 6',
+    'week 7',
+    'week 8',
+    'week 9',
+    'week 10',
+    'week 11',
+    'week 12',
+    'week 13',
+    'week 14',
+    'week 15',
+    'week 16',
+    'week 17',
+    'week 18',
+    'week 19',
+    'week 20',
+    'week 21',
+    'week 22',
+    'week 23',
+    'week 24',
+    'week 25',
+    'week 26',
+    'week 27',
+    'week 28',
+  ];
+}
