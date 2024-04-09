@@ -80,7 +80,7 @@ AppBar appbar(BuildContext context,value) {
                 enabledBorder: OutlineInputBorder(
                     borderSide: BorderSide(color: Colors.white),
                     borderRadius: BorderRadius.circular(20)),
-                hintText: 'Enthita myre nokkane...❔',
+                hintText: 'search developer...❔',
                 hintStyle: TextStyle(color: Colors.white),
                 suffixIcon: IconButton(
                     onPressed: () {

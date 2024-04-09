@@ -192,16 +192,19 @@ class _DataInsertState extends State<DataInsert> {
                                   context, 'Register Failed!', Colors.red);
                             }
                           },
-                          child: Container(
-                            height: 50,
-                            decoration: BoxDecoration(
-                              color: Colors.black,
-                              borderRadius: BorderRadius.circular(30),
-                            ),
-                            child: Center(
-                              child: Text(
-                                'Register',
-                                style: TextStyle(color: Colors.white),
+                          child: Padding(
+                            padding: const EdgeInsets.all(8.0),
+                            child: Container(
+                              height: 50,
+                              decoration: BoxDecoration(
+                                color:  Color.fromARGB(255, 66, 11, 11),
+                                borderRadius: BorderRadius.circular(30),
+                              ),
+                              child: Center(
+                                child: Text(
+                                  'Register',
+                                  style: TextStyle(color: Colors.white),
+                                ),
                               ),
                             ),
                           ),
@@ -238,16 +241,19 @@ class _DataInsertState extends State<DataInsert> {
                                   context, 'Register Faild!', Colors.red);
                             }
                           },
-                          child: Container(
-                            height: 50,
-                            decoration: BoxDecoration(
-                              color: Color.fromARGB(255, 0, 0, 0),
-                              borderRadius: BorderRadius.circular(30),
-                            ),
-                            child: Center(
-                              child: Text(
-                                'Update',
-                                style: TextStyle(color: Colors.white),
+                          child: Padding(
+                            padding: const EdgeInsets.all(8.0),
+                            child: Container(
+                              height: 50,
+                              decoration: BoxDecoration(
+                                color: Color.fromARGB(255, 66, 11, 11),
+                                borderRadius: BorderRadius.circular(30),
+                              ),
+                              child: Center(
+                                child: Text(
+                                  'Update',
+                                  style: TextStyle(color: Colors.white),
+                                ),
                               ),
                             ),
                           ),
@@ -255,6 +261,7 @@ class _DataInsertState extends State<DataInsert> {
                 ],
               ),
             ),
+            SizedBox(height: 50,)
           ])),
     );
   }
